@@ -1,0 +1,167 @@
+@charset "utf-8";
+/******* header ***********/
+
+#alllogin {
+	width: 100%;
+	height: 100%;
+    display:table;
+	background-image:url(../images/bg_login.jpg);
+	background-size: 1024px 703px;
+   -webkit-background-size: 1024px 703px;
+   -moz-background-size: 1024px 703px;
+    text-align: center;
+	background-repeat: repeat-x;
+}
+
+#header {
+    width: 1024px;
+    text-align:center;
+	margin-top:50px;
+	
+}
+
+#headerimage{
+    text-align:center;
+	width: 1024px; 
+    height:40px;
+    margin-top:1px;
+    top: 120px;
+    right: 450px;
+}
+
+#MainContent {
+    width:1024px;
+	margin-right:auto; 
+	margin-left:auto;
+	overflow: hidden;
+}
+#sectionleft {
+    position: relative;
+    width:500px;
+	height:600px;
+	float:left;
+}
+#sectionRight {
+    width:500px;
+	height:600px;
+    float:right;
+}	
+
+#loginkeyborad{
+  width: 300px; 
+  height:300px;
+  padding-top:70px;
+}
+
+#logininput{
+  width: 500px; 
+  height:300px;
+  background: #fff;
+  margin-left:10px;
+  border-right: #959f9f solid 7px;
+  border-bottom:  #959f9f solid 7px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 230px;
+  height: 300px;
+ }
+
+ #inputcomponents{
+  width: 300px; 
+  height:200px;
+  background: #fff;
+  margin-left:10px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 200px;
+  height: 200px;
+ }
+ 
+ #loginbackground{
+   	width: 1024px;
+	height: 851px;
+	background-position: 0px 100px;
+	background-image:url(../images/bg_login.png);
+	background-repeat: repeat-x;
+}
+ 
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 6px 1px;
+	outline: 0;
+	-webkit-appearance: none;
+	width:170px;
+}
+input.rounded:focus {
+	border-color: #339933;
+	
+}
+
+
+
+
+.titletext{
+	background-color: #ffffff;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color: #323c3c;
+	line-height: 1;
+}
+
+
+button.buttonstyle {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #b4e051;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+	width:170px;
+	
+}
+
+button.buttonstyle:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

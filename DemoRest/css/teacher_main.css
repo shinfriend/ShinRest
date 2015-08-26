@@ -1,0 +1,127 @@
+@charset "utf-8";
+/******* header ***********/
+
+#allteacher {
+	width: 100%;
+	height: 100%;
+    display:table;
+    text-align: center;
+
+}
+#teacherHeader{
+background-color:blue;
+float : left;
+clear : none;
+height : 100px;
+width : 800px;
+margin-left: 0px;
+margin-top: 0px
+}
+
+.headerLogoutButton{
+	font-size:12pt;
+	float:right;
+	width:141px;
+	height: 41px;
+	border: #fff 1px solid;
+	color: #fff;
+	text-align:center;
+	display:table;
+	margin-top: 7px;
+}
+.headerLogoutButton p{
+	text-align:center;
+	display:table-cell;
+	vertical-align: middle;
+}
+.headerLogoutImage{
+    float:right;
+    width:22px;
+	height:21px;
+	margin-top: 10px;
+	margin-right:15px;
+	background-image:url(../images/logout.png);
+	background-size: 22px 21px;
+   -webkit-background-size: 22px 21px;
+   -moz-background-size: 22px 21px;
+}
+	
+#teacherpageContent{
+float : left;
+clear : none;
+height : 700px;
+width : 800px;
+margin-left: 450px;
+margin-top: 100px
+}
+
+#teacherpagetitle {
+float : left;
+clear : none;
+height : 50px;
+width : 600px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+
+.classlistbuttonstyle{
+	font-size:20pt;
+	float:left;
+	width:641px;
+	height: 80px;
+	border: #6eb400 3px solid;
+	color: #6eb400;
+	text-align:center;
+	display:table;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.classlistbuttonstyle1{
+	font-size:20pt;
+	color: #6eb400;
+
+}
+.classlistbuttonstyle p{
+	text-align:left;
+	display:table-cell;
+	vertical-align: middle;
+}
+.classlistbuttonimage{
+    float:left;
+    width:23px;
+	height:26px;
+	margin-top: 30px;
+	margin-left:20px;
+	background-image:url(../images/headerArrow.png);
+	background-size: 23px 54px;
+   -webkit-background-size: 23px 54px;
+   -moz-background-size: 23px 54px;
+}
+
+span.titlefont {font-size: 35px; }
+
+
+.titletext{
+	background-color: #ffffff;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color: #323c3c;
+	line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

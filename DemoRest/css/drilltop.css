@@ -1,0 +1,802 @@
+@charset "utf-8";
+/******* header ***********/
+.headerTitle {
+	font-size: 14pt;
+	width: 840px;
+	color: #fff;
+	display:table-cell;
+	vertical-align: middle;
+	line-height: 41px;
+}
+.headerTopButton{
+	font-size:12pt;
+	float:right;
+	width:141px;
+	height: 41px;
+	border: #fff 1px solid;
+	color: #fff;
+	text-align:center;
+	display:table;
+}
+.headerTopButton p{
+	text-align:center;
+	display:table-cell;
+	vertical-align: middle;
+}
+.headerTopButton1{
+	font-size:12pt;
+	float:right;
+	width:141px;
+	height: 41px;
+	border: #fff 1px solid;
+	color: #fff;
+	text-align:center;
+	display:table;
+}
+.headerTopButton1 p{
+	text-align:center;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+/****** contents **********/
+.mainContents {
+	padding: 10px;
+}
+.mainTopArea {
+	width: 100%;
+	margin-bottom:5px;
+}
+.todaysGoalContents{
+	float:left;
+	width:565px;
+}
+.todaysGoalTitle{
+	width: 520px;
+	height: 40px;
+	background:#b4e051;
+	font-size: 14pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:40px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+}
+.todaysGoalTitle:after {
+	content: "";
+	position: absolute;
+	bottom: -10px; left: 0;
+	margin-left: 0;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #6eb400 transparent transparent;
+	z-index: -1;
+}
+/** ribbon **/
+.todaysGoalTitle:before{
+	content: "";
+	border-style: solid;
+	border-color: #b4e051 transparent #b4e051 transparent;
+	border-width: 20px;
+	height: 0;
+        position: absolute;
+        left: 0;
+        right: -20px;
+		z-index: -1;
+}
+.todaysGoalMainArea{
+	width:550px;
+	height:300px; 
+	background: #fff;
+	margin-left:10px;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+}
+.todaysGoalinputarea{
+ float:left;
+ clear : none;
+ width:530px;
+ height:70px;
+ margin-left: 0px;
+ margin-top: 0px;
+ padding:10px;
+}
+.Goalsubtitle1{
+	width: 130px;
+	height: 40px;
+	background:#fff;
+	font-size: 12pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:20px;
+}
+.Goalsubtitle2{
+	width: 10px;
+	height: 20px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:20px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:20px;
+}
+
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 30px;
+	padding: 6px 1px;
+	outline: 0;
+	-webkit-appearance: none;
+	width:80px;
+	height:30px;
+	margin-top:20px;
+	margin-left:30px;
+	text-align: center; 
+}
+input.rounded:focus {
+	border-color: #339933;
+	
+}
+input.textfordisplay1 {
+	font-size: 30px;
+	padding: 6px 1px;
+	outline: 0;
+	-webkit-appearance: none;
+	width:80px;
+	height:30px;
+	margin-top:20px;
+	margin-left:0px;
+	text-align: center; 
+}
+
+input.textfordisplay2 {
+	font-size: 30px;
+	padding: 6px 1px;
+	outline: 0;
+	-webkit-appearance: none;
+	width:80px;
+	height:30px;
+	margin-top:20px;
+	margin-left:30px;
+	text-align: center; 
+}
+
+.Goalsubtitle1{
+	width: 130px;
+	height: 40px;
+	background:#fff;
+	font-size: 12pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:12px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: left;
+	margin-top:10px;
+}
+.Goalsubtitle2{
+	width: 10px;
+	height: 20px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:20px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:20px;
+}
+
+.Goalsubtitle4{
+	width: 200px;
+	height: 50px;
+	font-size: 12pt;
+	line-height: 35px;
+	padding-left:20px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:0px;
+}
+.Goalsubtitle3{
+	width: 10px;
+	height: 20px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:20px;
+}
+
+.Goalsubtitle5{
+	width: 350px;
+	height: 50px;
+	font-size: 10pt;
+	line-height: 35px;
+	padding-left:5px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:0px;
+}
+
+.Goalsubtitle6{
+	width: 40px;
+	height: 40px;
+	background:#fff;
+	font-size: 13pt;
+	line-height: 30px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:0px;
+	background-color:transparent;
+}
+
+.Goalsubtitle7{
+	width: 150px;
+	height: 40px;
+	background:#fff;
+	font-size: 12pt;
+	line-height: 30px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:0px;
+	background-color:transparent;
+}
+
+.Goalsubtitle8{
+	width: 130px;
+	height: 40px;
+	background:#fff;
+	font-size: 12pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:0px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:10px;
+}
+
+.todaysGoalrecordarea{
+ float:left;
+ clear : none;
+ width:530px;
+ height:70px;
+ margin-left: 0px;
+ margin-top: 0px
+}
+
+.Goalimagemedal_M{
+	width: 43px;
+	height: 42px;
+	background:#fff;
+	padding-left:0px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:20px;
+}
+
+
+
+.mainTopRightArea {
+	float:right;
+	width:410px;
+	padding-right:10px;
+}
+
+.testGoalTitle{
+	width: 360px;
+	height: 40px;
+	background:#b4e051;
+	font-size: 14pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:40px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+}
+.testGoalTitle:after {
+	content: "";
+	position: absolute;
+	bottom: -10px; left: 0;
+	margin-left: 0;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #6eb400 transparent transparent;
+	z-index: -1;
+}
+/** ribbon **/
+.testGoalTitle:before{
+	content: "";
+	border-style: solid;
+	border-color: #b4e051 transparent #b4e051 transparent;
+	border-width: 20px;
+	height: 0;
+        position: absolute;
+        left: 0;
+        right: -20px;
+		z-index: -1;
+}
+.testGoalMainArea{
+	width: 390px;
+	height: 100px;
+	margin: 0 20px 10px 10px;
+	background-color: #fff;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+}
+
+
+
+.todaysgoalmessagearea{
+ float:left;
+ clear : none;
+ width:530px;
+ height:140px;
+ margin-left: 0px;
+ margin-top: 0px;
+ padding:10px;
+}
+
+.goalmessage_title_area{
+	width: 110px;
+	height: 100px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:5px;
+}
+.goalmessagearea1{
+	width: 170px;
+	height: 130px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:10px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:5px;
+}
+
+.goalmessagearea2{
+	width: 150px;
+	height: 130px;
+	font-size: 15pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:20px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+	margin-top:5px;
+}
+
+ textarea { 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;
+    width:170px;
+    height:130px;	
+  }
+
+
+
+.todaysDrillMainArea{
+	width: 390px;
+	height: 145px;
+	margin: 0 20px 10px 10px;
+	background-color: #fff;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+	
+}
+
+.todaysdrilledlist {
+   float:left;
+   clear : none;
+   width:370px;
+   height:70px;
+   margin-left: 0px;
+   margin-top: 0px;
+   padding:10px;
+   position:relative;
+
+}
+
+.todaysdrilledmessage {
+   float:left;
+   clear : none;
+   width:370px;
+   height:30px;
+   margin-left: 0px;
+   margin-top: 5px;
+   padding:10px;
+   position:relative;
+}
+
+#todaydrillcontainer
+{
+    height:400px;
+    width:400px;
+    position:relative;
+}
+
+
+#todaydrill_image
+{    
+    position:absolute;
+	left:0px;
+    top:0px;
+}
+
+
+#todaydrill_text
+{
+    position:absolute;    
+    left:5px;
+    top:15px;
+	padding:5px;
+}
+
+#todaydrill_textstyle
+{
+    color:black;
+    font-size:22px;
+    font-weight:bold;
+    left:0px;
+    top:0px;
+}
+
+#todaydrill_text_hojyu
+{
+    color:black;
+    font-size:10px;
+    font-weight:bold;
+    left:0px;
+    top:0px;
+}
+.todaydrillmedalbox {
+   float:left;
+   clear : none;
+   width:60px;
+   height:60px;
+   margin-left: 10px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+
+
+
+/******** bottom *********/
+.mainBottomArea{
+	width: 100%;
+}
+.drillList{
+	float:left;
+	width:710px;
+}
+.drillListTitle{
+	width: 660px;
+	height: 40px;
+	background:#b4e051;
+	font-size: 14pt;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left:40px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	vertical-align: middle;
+}
+
+.drillListTitle:after {
+	content: "";
+	position: absolute;
+	bottom: -10px; left: 0;
+	margin-left: 0;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #6eb400 transparent transparent;
+	z-index: -1;
+}
+/** ribbon **/
+.drillListTitle:before{
+	content: "";
+	border-style: solid;
+	border-color: #b4e051 transparent #b4e051 transparent;
+	border-width: 20px;
+	height: 0;
+        position: absolute;
+        left: 0;
+        right: -20px;
+		z-index: -1;
+}
+.drillListMainArea{
+	width:690px;
+	height:800px; 
+	background: #fff;
+	margin-left:10px;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+}
+
+.drillList_item{
+   float:left;
+   clear : none;
+   width:670px;
+   height:100px;
+   margin-left: 0px;
+   margin-top: 0px;
+   padding:5px;
+   position:relative;
+   background-color:#fcf9ea;
+ }
+
+.drillList_item1 {
+   float:left;
+   clear : none;
+   width:670px;
+   height:40px;
+   margin-left: 0px;
+   margin-top:0px;
+   padding:	0px;
+   position:relative;
+   background-color:#fcf9ea;
+   background-image:url(../images/bg_drill_list.png);
+   background-repeat: repeat-y;
+ }
+ 
+ .drillList_item2{
+   float:left;
+   clear : none;
+   width:670px;
+   height:40px;
+   margin-left: 0px;
+   margin-top:5px;
+   padding:0px;
+   position:relative;
+   background-color:#fcf9ea;
+   background-image:url(../images/bg_drill_list.png);
+   background-repeat: repeat-y;
+ }
+ 
+  .drillList_item_space {
+   float:left;
+   clear : none;
+   width:670px;
+   height:10px;
+   margin-left: 0px;
+   margin-top: 10px;
+   padding:0px;
+   position:relative;
+   
+ }
+ 
+ .add_medal_over_button {
+   background-image:url(../images/medal_S.png);
+   background-repeat: repeat-y;
+ }
+
+button.buttonstyle1 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 18x;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #fff;
+
+    /* 文字色を白色に指定 */
+    color: black;
+	text-align: right;
+    /* ボーダーをなくす */
+    border-style: none;
+	width:200px;
+	height:40px;
+	margin-left:5px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+}
+button.buttonstyle1:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+ 
+button.buttonstyle2 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 18px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #fff;
+
+    /* 文字色を白色に指定 */
+    color: black;
+	text-align: right;
+    /* ボーダーをなくす */
+    border-style: none;
+	width:200px;
+	margin-left:10px;
+	
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	
+}
+
+button.buttonstyle2:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+/**** Button Style for: 途中でやめたか満点とっ   ***/
+button.buttonstyle3 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 18x;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #e5f3fe;
+
+    /* 文字色を白色に指定 */
+    color: black;
+	text-align: right;
+    /* ボーダーをなくす */
+    border-style: none;
+	width:200px;
+	height:40px;
+	margin-left:5px;
+	border: 1px solid #5596ee;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	border-right: #959f9f solid 5px;
+	border-bottom:  #959f9f solid 5px;
+}
+button.buttonstyle3:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+button.buttonstyle4{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 18px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #e5f3fe;
+
+    /* 文字色を白色に指定 */
+    color: black;
+	text-align: right;
+    /* ボーダーをなくす */
+    border-style: none;
+	width:200px;
+	margin-left:10px;
+	
+	border: 1px solid #5596ee;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	
+}
+
+
+button.buttonstyle4:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+
+blockquote.newline1 { margin-top: 10px }

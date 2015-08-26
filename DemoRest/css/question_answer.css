@@ -1,0 +1,399 @@
+@charset "utf-8";
+/******* header ***********/
+
+/******* Header Title ******************/
+.headerTitle {
+	font-size: 18pt;
+	width: 840px;
+	color: #dbf0ca;
+	display:table-cell;
+	vertical-align: middle;
+	line-height: 41px;
+}
+
+.headerTopButton{
+	font-size:13pt;
+	float:right;
+	width:141px;
+	height: 41px;
+	border: #fff 1px solid;
+	color: #747474;
+	background-color:#fff;
+	text-align:center;
+	display:table;
+	vertical-align: middle;
+}
+
+p.gotoTop {
+      margin-left:10px;
+	  margin-top:10px;
+}
+
+/******* Main Page Content ************/
+#MainpageContent {
+    width:1024px;
+	margin-right:auto; 
+	margin-left:auto;
+	overflow: hidden;
+}
+
+/******* Question/Answer Image  ********/
+.sectionTopleft {
+    position: relative;
+    width:700px;
+	height:500px;
+	float:left;
+	background-color:#fff;
+	border-style: solid;
+	border-color: #d1d1d1;
+	border-width: 3px;
+	margin-top:10px;
+    background-image:url(../images/mondai_image.jpg);
+}
+
+/******* 答え入力欄 ********************/
+.sectionBottomLeft {
+    width:705px;
+	height:100px;
+    float:left;
+	margin-top:20px;
+}
+	
+/******* Keyboard and Button Area *******/
+.sectionRight {
+    width:310px;
+	height:620px;
+    float:right;
+	margin-top:0px;
+	background-image: url(../images/bg.gif);
+	background-size: 4px 4px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+}	
+
+/******* Keyboard **********************/
+.sectionRightTop {
+    width:280px;
+	height:370px;
+    float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+/******* Result **********************/
+.sectionResult {
+background-color:#fff;
+    width:270px;
+	height:200px;
+    float:left;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+/******* Recommend Message **********************/
+.sectionRecommendMessage {
+    background-color:#f2f3c9;
+    width:270px;
+	height:150px;
+    float:left;
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+/******* Button Area Question*******************/
+.sectionRightBottom {
+    width:300px;
+	height:100px;
+    float:left;
+	margin-left:20px;
+	margin-top:150px;
+}
+
+/******* Button Area Answer*******************/
+.sectionRightBottom_Answer {
+    width:270px;
+	height:250px;
+    float:left;
+	margin-left:40px;
+}			
+
+/******* （ア）（イ）（ウ）（エ） *******************/
+.answersubtitle{
+	width: 40px;
+	height: 10px;
+	font-size: 14pt;
+	line-height: 10px;
+	padding-left:10px;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	margin-top:50px;
+	
+}
+
+.answersubtitle1{
+	width: 40px;
+	height: 10px;
+	font-size: 14pt;
+	line-height: 10px;
+	padding-left:10px;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	margin-top:0px;
+	vertical-align:bottom;
+	
+}
+/******* Answer Box *******************/
+
+.AnswerAlphabet {
+   float:left;
+   clear : none;
+   width:50px;
+   height:90px;
+   margin-left:0px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+
+
+.AnswerInput {
+   float:left;
+   clear : none;
+   width:120px;
+   height:90px;
+   margin-left:0px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+
+#Answer1InputArea
+{
+    position:absolute;    
+    left:0px;
+    top:5px;
+	padding:5px;
+}
+.Answer2Input {
+background-color:blue;
+   float:left;
+   clear : none;
+   width:165px;
+   height:100px;
+   margin-left:5px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+.Answer3Input {
+background-color:blue;
+   float:left;
+   clear : none;
+   width:165px;
+   height:100px;
+   margin-left: 5px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+.Answer4Input {
+background-color:blue;
+   float:left;
+   clear : none;
+   width:165px;
+   height:100px;
+   margin-left: 5px;
+   margin-top: 0px;
+   padding:0px;
+   position:relative;
+}
+
+
+/******* 入力欄スタイル *******************/
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 32px;
+	padding: 6px 1px;
+	outline: 0;
+	-webkit-appearance: none;
+	width:100px;
+	height:40px;
+}
+input.rounded:focus {
+	border-color: #339933;
+	
+}
+
+blockquote.newline {margin-top:20px;}
+
+blockquote.newline1 {margin-top:25px;}
+
+.boximage { position: relative; left: -60px;top:15px; z-index:2; }
+
+label.resultlabel {
+   	font-size: 20px;
+	margin-left:10px;
+	margin-top:40px;
+	font-weight: bold;
+	
+}
+label.resultlabel1 {
+   	font-size: 30px;
+	margin-left:70px;
+	margin-top:40px;
+	font-weight: bold;
+	
+}
+
+label.recommendmsg {
+   	font-size: 22px;
+	line-height: 24px;
+	float:left;
+	margin-top:20px;
+}
+
+
+.linestyle {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 0em 0;
+    padding: 0;
+	width:250px;
+	margin-left:10px;
+
+}
+
+.right_answer_image 
+{
+	width:95px;
+	height:90px;
+	display: block;
+	cursor:pointer;
+	background-position:0 0;
+	background-image:url(../images/testResult.png);
+	background-size:94px 171px;
+	-webkit-background-size:94px 171px;
+	-moz-background-size:94px 171px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+.wrong_answer_image 
+{
+	width:95px;
+	height:85px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -85px;
+	background-image:url(../images/testResult.png);
+	background-size:94px 171px;
+	-webkit-background-size:94px 171px;
+	-moz-background-size:94px 171px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+
+/******* ボタンスタイル *******************/
+button.buttonstyle {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.3em;
+	
+	text-align:center;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #5099ef;
+
+    /* 文字色を白色に指定 */
+    color: #f9f9f2;
+
+    /* ボーダー */
+	border: 1px solid #5099ef;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	width:230px;
+	height:60px;
+}
+
+button.buttonstyle:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #84c918; 
+
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+
+button.buttonstyle1 {
+    /* 背景色を濃い青色に指定 */
+    background-color: #f58c10;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダー */
+	border: 1px solid #f58c10;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	width:220px;
+ 
+}
+
+button.buttonstyle2 {
+	width:220px;
+}
+
+button.buttonstyle3 {
+    /* 背景色を濃い青色に指定 */
+    background-color: #959fa1;
+
+    /* 文字色を白色に指定 */
+    color: #e2e7e6;
+
+    /* ボーダー */
+	border: 1px solid #959fa1;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	width:220px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

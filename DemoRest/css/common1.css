@@ -1,0 +1,525 @@
+@charset "utf-8";
+/****  reset  ****/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, *, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-style: none;
+	font-weight:normal;
+	text-align:left;
+	list-style: none;
+}
+body {
+	background-color: #ffffff;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color: #323c3c;
+	line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-style:normal;
+	font-weight:normal;
+	color: #323c3c;
+}  
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}  
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+
+/********** contents **********/
+#all {
+	width: 100%;
+	height: 100%;
+    display:table;
+    text-align: center;
+}
+
+.allfortab {
+	width: 100%;
+	height: 100%;
+    display:table;
+    text-align: center;
+}
+
+#allHeaderGreen {
+	width: 100%;
+	background: #6eb400;
+    text-align: center;
+}
+#allHeaderOrange {
+	width: 100%;
+	background: #f58c10;
+    text-align: center;
+}
+#allContentsGraph{
+	width: 100%;
+	text-align: center;
+}
+#allContentsDrill {
+	width: 100%;
+	text-align: center;
+	background-image: url(../images/bg.gif);
+	background-size: 4px 4px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+}
+#Contents{
+	width: 1024px;
+	margin-right:auto; 
+	margin-left:auto;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.header_green {
+	background:#6eb400;
+	width: 984px;
+	height: 61px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+.headerTitleContents {
+	height: 41px;
+	display:table;
+	padding: 10px 20PX;
+}
+.header_orange {
+	background:#f58c10;
+	width: 984px;
+	height: 61px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mt5{
+	margin-top: 5px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt15{
+	margin-top: 15px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mb5{
+	margin-bottom: 5px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mb15{
+	margin-bottom: 15px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.pt5{
+	padding-top: 5px;
+}
+.pt10{
+	padding-top: 10px;
+}
+.pt15{
+	padding-top: 15px;
+}
+.pt20{
+	padding-top: 20px;
+}
+.pb5{
+	padding-bottom: 5px;
+}
+.pb10{
+	padding-bottom: 10px;
+}
+.pb15{
+	padding-bottom: 15px;
+}
+.pb20{
+	padding-bottom: 20px;
+}
+.mr6{
+	margin-right: 6px;
+}
+.mb6{
+	margin-bottom: 6px;
+}
+
+/******** keyboard ********/
+.keyboard{
+	width: 237px;
+	background-color:#b4e051;
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 11px;
+	border-radius: 10px;	
+	-webkit-border-radius: 10px;
+}
+.keyboard li{
+	float:left;
+}
+
+.keyboard1{
+	width: 237px;
+	background-color:#b4e051;
+	float: left;
+	margin: 60px 0 0 0;
+	padding: 11px;
+	border-radius: 10px;	
+	-webkit-border-radius: 10px;
+}
+.keyboard1 li{
+	float:left;
+}
+
+a.one{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 0;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.one:active{
+	background-position:right top;
+}
+a.two{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -71px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.two:active{
+	background-position:right -71px;
+}
+a.three{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -142px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.three:active{
+	background-position:right -142px;
+}
+a.four{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -213px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.four:active{
+	background-position:right -213px;
+}
+a.five{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -284px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.five:active{
+	background-position:right -284px;
+}
+a.six{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -355px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.six:active{
+	background-position:right -355px;
+}
+a.seven{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -426px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.seven:active{
+	background-position:right -426px;
+}
+a.eight{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -497px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.eight:active{
+	background-position:right -497px;
+}
+a.nine{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -568px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.nine:active{
+	background-position:right -568px;
+}
+a.zero{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -639px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.zero:active{
+	background-position:right -639px;
+}
+a.dot{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -710px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+a.dot:active{
+	background-position:right -710px;
+}
+a.c{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -781px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.c:active{
+	background-position:right -781px;
+}
+
+a.add{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -852px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.add:active{
+	background-position:right -852px;
+}
+
+a.substract{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -923px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.substract:active{
+	background-position:right -923px;
+}
+
+a.multiply{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -994px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.multiply:active{
+	background-position:right -994px;
+}
+
+a.divide{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -1065px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.divide:active{
+	background-position:right -1065px;
+}
+
+
+a.lessthan{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -1136px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.lessthan:active{
+	background-position:right -1136px;
+}
+
+
+
+a.greaterthan{
+	width:75px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -1207px;
+	background-image:url(../images/keyboard.png);
+	background-size:151px 1278px;
+	-webkit-background-size:151px 1278px;
+	-moz-background-size:151px 1278px;
+}
+
+a.greaterthan:active{
+	background-position:right -1207px;
+}
+
+
+
+a.c1{
+	width:156px;
+	height:70px;
+	display: block;
+	cursor:pointer;
+	background-position:0 0;
+	background-image:url(../images/button_c.png);
+	background-size:158px 142px;
+	-webkit-background-size:158px 142px;
+	-moz-background-size:158px 142px;
+}
+
+a.c1:active{
+	background-position:left -71px ;
+}
+
+
+blockquote.newline { margin-top: 30px }
+

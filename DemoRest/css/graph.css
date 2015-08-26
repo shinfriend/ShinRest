@@ -1,0 +1,642 @@
+@charset "utf-8";
+/******* header ***********/
+
+.headerTitleContentsLeft{
+	width: 200px;
+	height: 61px;
+	float:left;
+}
+.headerTitleContentsRight{
+	width: 730px;
+	height: 61px;
+	float:right;
+	vertical-align: bottom;
+	display: table;
+}
+.headerTitle {
+	font-size: 10pt;
+	width: 840px;
+	height:61px;
+	color: #fff;
+	display:table-cell;
+	vertical-align: middle;
+	line-height: 1.2em;
+}
+
+.headerMenu {
+	width: 604px;
+	height: 61px;
+	display:table-cell;
+	vertical-align:bottom;
+}
+.headerMenu li{
+	width: 145px;
+	height: 45px;
+	color: #fff;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+.headerMenu .tabnotselected a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+
+.drillno_tab{
+	width: 145px;
+	height: 45px;
+	background: #6eb400;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right:6px;
+}
+.drillno_tab a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.headerTopButton{
+	font-size:8pt;
+	width:100px;
+	height: 36px;
+	border: #fff 1px solid;
+	color: #fff;
+	text-align:center;
+	display:table-cell;
+	vertical-align: middle;
+
+}
+.headerTopButton p{
+	text-align:center;
+	display:table-cell;
+	vertical-align: middle;
+	padding-left:10px;
+}
+.headerTopButton p img {
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.logoutButton {
+	display:table-cell; 
+	vertical-align:middle;
+}
+.logoutButton a {
+	text-decoration: none;
+	color:#fff;
+}
+/****** contents **********/
+.mainContents {
+	height: 100%;
+}
+
+.info_above_table {
+   width:1024px;
+   height:80px;
+   float:left;
+}
+
+.info_text {
+   float:left;
+   width:50px;
+   height:40px;
+   margin-top:20px;
+   margin-left:30px;
+ }
+p span 
+{
+    display: block;
+}
+ 
+ /******下段　TextColor  *****/
+ p.gedantextcolor {
+ color:#aeaeab;
+ }
+ 
+ p.textintent {
+   text-indent:15px;
+ }
+ 
+  
+ p.textintent1 {
+   text-indent:15px;
+ }
+
+
+ 
+ .info_text1{
+   float:left;
+   width:80px;
+   height:40px;
+   margin-left:5px;
+   margin-top:20px;
+   
+ }
+ 
+.info_arrow_image{
+   float:left;
+   width:30px;
+   height:30px;
+   margin-left:20px;
+   margin-top:30px;
+ }
+ 
+.up_arrow_image 
+{
+	width:20px;
+	height:20px;
+	display: block;
+	cursor:pointer;
+	background-position:0 0;
+	background-image:url(../images/arrow.png);
+	background-size:22px 61px;
+	-webkit-background-size:22px 61px;
+	-moz-background-size:22px 61px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+.down_arrow_image 
+{
+	width:20px;
+	height:20px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -21px;
+	background-image:url(../images/arrow.png);
+	background-size:22px 61px;
+	-webkit-background-size:22px 61px;
+	-moz-background-size:22px 61px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+.same_arrow_image 
+{
+	width:20px;
+	height:18px;
+	display: block;
+	cursor:pointer;
+	background-position:0 -42px;
+	background-image:url(../images/arrow.png);
+	background-size:22px 61px;
+	-webkit-background-size:22px 61px;
+	-moz-background-size:22px 61px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+}
+ 
+.info_image_text{
+   float:left;
+   width:100px;
+   height:30px;
+   margin-left:5px;
+   margin-top:30px;
+}
+
+.info_manten_text{
+   width:70px;
+}
+  
+.info_text_kakunin_drill_middle{
+   float:left;
+   width:150px;
+   height:30px;
+   margin-left:80px;
+   margin-top:30px;
+ }
+ 
+
+ 
+ .info_percentag_text{
+   float:left;
+   width:100px;
+   height:30px;
+   margin-left:5px;
+   margin-top:30px;
+   font-size:14px;
+ }
+ 
+ .info_setouritsu_legend_text{
+   float:left;
+   width:170px;
+   height:30px;
+   margin-left:5px;
+   margin-top:20px;
+   font-size:15px;
+ }
+ 
+ .drill_no_mantenbox{
+   float:left;
+   width: 200px;
+   margin-top: 20px;
+   margin-left: 90px;
+
+ }
+ 
+ .vertical_dotted_line
+{	
+    float:left;
+	display:inline;
+	width:10px;
+	height:20px;
+	margin-left:0px;
+	margin-top:30px;
+	border-right:2px dotted black;
+ } 
+ 
+  .drill_no_kakunindrill_no_text{
+   float:left;
+   width: 200px;
+   margin-top:20px;
+   margin-left: 80px;
+ }
+ 
+ .drill_no_kakunindrill_no_lasttext{
+   float:left;
+   width: 170px;
+   text-indent:0px;
+   height:50px;
+   margin-left:280px;
+   margin-top:30px;
+ } 
+ 
+ .info_text_kakunin_drill_last{
+   float:left;
+   width:115px;
+   height:30px;
+   margin-left:30px;
+   margin-top:10px;
+   
+}
+
+p.textalign_center {
+   text-align:center;
+ }
+ 
+ 
+.colorblock1{
+   float:left;
+   width:20px;
+   height:20px;
+   margin-left:5px;
+   margin-top:30px;
+   background-color:#e6f4ff;
+}
+
+.colorblock2{
+   float:left;
+   width:20px;
+   height:20px;
+   margin-left:5px;
+   background-color:#f6d9ed;
+   margin-top:30px;
+}
+ 
+.colorblock3{
+   float:left;
+   width:20px;
+   height:20px;
+   margin-left:5px;
+   background-color:#f2f3c7;
+   margin-top:30px;
+}
+ 
+.mainTopArea {
+	width: 100%;
+	height: 100%;
+	margin-bottom:5px;
+	position:absolute;
+}
+table td {
+	margin: 5px;
+}
+td, th {
+	background:#fff;
+	border: 4px #fff solid;
+	text-align:center;
+	vertical-align:middle;
+
+}
+
+tr, th {
+	background:#b6e154;
+	width:40px;
+	height:60px;
+	text-align:center;
+	vertical-align:middle;
+	font-size: 14px;
+}
+
+/*******Fixed Table Layout *******/
+table.fixedlayouttable {
+    table-layout: fixed;
+}
+
+.tb_roll_no_width {
+  width: 30px;
+  height:40px;
+}
+
+.tb_studentname_width {
+  width: 160px;
+  height:40px;
+ }
+ .tb_date_width{
+  width: 100px;
+  height:40px;
+ }
+ 
+ .table_drilldate_end{
+  width:120px;
+  background-color:#5698e6;
+  color:#fff;
+}
+ .table_drilldate_end_minaoushi{
+  width:100px;
+  background-color:#5698e6;
+  color:#fff;
+}
+
+ .tb_data_bg_target_tassei {
+    background-color:#e6f4ff;
+	text-align:center;
+ }
+ 
+ .tb_data_bg_target_mitassei {
+    background-color:#f6d9ed;
+	text-align:center;
+ }
+ 
+  .tb_data_bg_target_middle {
+    background-color:#f2f3c7;
+	text-align:center;
+ }
+ 
+   .tb_data_bg_drillno_lastcol{
+    background-color:#e2ebe9;
+	text-align:center;
+ }
+  .tb_data_bg_manten {
+   background-color:#e6f4ff;
+
+ }
+ 
+   .tb_data_bg_not_manten {
+   background-color:#f8f8f8;
+
+ }
+ 
+ .tr_drillnomiddlecell_text1_data{
+   float:left;
+   width:60px;
+   height:20px;
+   margin-left:0px;
+   margin-top:0px;
+   text-align:center;
+   font-size:18px;
+}
+
+ .tr_drillnomiddlecell_text1_data_style{
+   font-size:18px;
+   text-align:center;
+   display:table-cell; 
+   vertical-align:middle;
+ }
+.tr_tb_text {
+     text-indent: -45px;
+	 background-color:yellow;
+ }
+ 
+.tr_tb_text1_data{
+   float:left;
+   width:60px;
+   height:20px;
+   margin-left:5px;
+   margin-top:8px;
+   text-align:center;
+   font-size:18px;
+}
+
+.tr_tb_text1_data_drillno_last_text {
+   margin-left:20px;
+}
+.tr_tb_text2_data{
+   float:left;
+   width:70px;
+   height:20px;
+   margin-left:0px;
+   margin-top:0px;
+   text-align:center;
+   color:#aeaeab;
+   
+}
+
+.tr_tb_text3_data{
+   float:left;
+   width:60px;
+   height:20px;
+   margin-left:5px;
+   margin-top:25px;
+   text-align:center;
+   font-size:18px;
+}
+
+.tb_setousu_image {
+  margin-top:20px;
+}
+ 
+ .tr_tb_text_data_manten{
+   float:left;
+   width:60px;
+   height:40px;
+   margin-left:5px;
+   margin-top:5px;
+   font-size:18px;
+   vertical-align:center;
+    
+}
+ 
+.tr_tb_image{
+   float:left;
+   width:20px;
+   height:20px;
+   margin-top:-15px;
+}
+
+.table_studentname{
+	width:230px;
+}
+
+.table_studentname-align{
+	text-align:left;
+}
+.table_drilldate{
+  width:120px;
+}
+
+.table_drilldate_wide{
+  width:705px;
+}
+
+/***Dividing Middle Column into 10  ***/
+ .tb_drillno_text_middle_data {
+   width:65px;
+ }
+
+.table_drilldate_end_text{
+  width:150px;
+  background-color:#5698e6;
+  color:#fff;
+}
+
+
+
+.previous_arrow {
+   float:left;
+  width:15px;
+  height:20px;
+  margin-top:8px;
+  margin-left:5px;
+}
+
+.previous_arrow_drillno {
+   float:left;
+  width:15px;
+  height:20px;
+  margin-top:4px;
+  margin-left:60px;
+}
+
+.next_arrow {
+   float:right;
+  width:15px;
+  height:20px;
+  margin-top:4px;
+  margin-left:5px;
+}
+
+.date_text {
+   float:left;
+   width: 90px;
+   height:20px;
+   margin-left:10px;
+   margin-top:10px;
+  text-decoration:underline;
+  color:#fff;
+}
+
+.date_previous_arrow_image 
+{
+	width:12px;
+	height:18px;
+	display: block;
+	cursor:pointer;
+	background-position:0 0;
+	background-image:url(../images/date_button.png);
+	background-size:12px 35px;
+	-webkit-background-size:12px 35px;
+	-moz-background-size:12px 35px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+	
+}
+
+
+.date_next_arrow_image 
+{
+	width:12px;
+	height:18px;
+	display: block;
+	cursor:pointer;
+	background-position:0 18px;
+	background-image:url(../images/date_button.png);
+	background-size:12px 35px;
+	-webkit-background-size:12px 35px;
+	-moz-background-size:12px 35px;
+	position: relative;
+	margin-left:0px;
+	margin-top:0px;
+	
+}
+/*********** TAB ***************/
+.current_tab{
+	width: 145px;
+	height: 45px;
+	background: #fff;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right:6px;
+}
+.current_tab a{
+	color: #6eb400;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.current_tab.active{
+	color: #6eb400;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+/***** TAB Arrow Image ******/
+.CurrentTabimage{
+   	width:12px;
+	height:18px;
+	display: block;
+	cursor:pointer;
+	background-position:15px 15px;
+	background-image:url("../images/headerArrow.png");
+	background-repeat: no-repeat;
+	background-size:12px 35px;
+	-webkit-background-size:12px 35px;
+	-moz-background-size:12px 35px;
+	position: relative;
+	margin-left:10px;
+	margin-top:10px;
+  
+}
+
+.NotSelectedTabimage{
+   	width:12px;
+	height:18px;
+	display: block;
+	cursor:pointer;
+	background-position:10px 0px;
+	background-image:url("../images/headerArrow.png");
+	background-repeat: no-repeat;
+	background-size:12px 35px;
+	-webkit-background-size:12px 35px;
+	-moz-background-size:12px 35px;
+	position: relative;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+
+.current_tab ul li.selected {
+   color: #6eb400;
+   background:#fff;
+}
+
+
+
