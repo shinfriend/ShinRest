@@ -11,8 +11,6 @@ session_start();
 
 if(isset($_POST['register_ven'])) {
 	
-	//This is test for Yogesh Understanding..
-	
 	
   //ユーザIDとパスワードが入力されていたら認証する
   if (!empty($_POST["ventype"]) && !empty($_POST["vendor_id_select"]))  {
