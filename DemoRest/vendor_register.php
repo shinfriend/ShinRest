@@ -9,10 +9,6 @@ require_once('/wamp/www/DemoRest_data/common/DbMgr.php');
 session_start();
 //$errorMessage = '';
 
-//This is test for Guthub 
-
-
-
 if(isset($_POST['register_ven'])) {
 	
 	
